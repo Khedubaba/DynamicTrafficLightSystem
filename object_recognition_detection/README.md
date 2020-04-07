@@ -1,4 +1,4 @@
-Problem Statement: Develop a solution for addressing traffic problem in the country, the goal is to make roadways efficient by reducing traffic and along with it the pollution caused by vehicles.
+*Problem Statement*: Develop a solution for addressing traffic problem in the country, the goal is to make roadways efficient by reducing traffic and along with it the pollution caused by vehicles.
 
 Overview of the project: Road congestion is the prominent cause for traffic which results in extensive wait time and thus results in pollution. The current methods do not compile with the growing needs of a metropolitan city and thus results in such a menace. As these methods do not provide concrete solution’s to the roadways and future planning’s based on population, town planning and other development factors we have come up with a solution that deals with present traffic problems and also helps to design future roadways by using existing data of pollution, population, future town planning such as under construction buildings through crowd source data which will help us to redesign the current roads and thus to curb pollution to a major extent.
 
@@ -23,24 +23,3 @@ Dynamic signal is a signal that will assess the conditons like number of vehicle
 Software roadmap-
 First with the help of cameras attached to every signals we will do an object detection analysis.With the help of this analysis we will get the number of vehicles and the types of vehicles on that particular lane. This object detection will be done on all the cameras of a particular junctions. Then with the help of this data we will calculate the signal light timer for all signals on the junction .
 It would be much more efficient then the static system currently implemented. Based on the number of vehicles and type of vehicles we would calculate the timer of that signal. This data would also be stored on a database. With the help of the data we will show an alternate path to the users using our map for navigation. By doing this we are giving the user an alternate free path without traffic and also stopping the traffic from increasing at a particular spot.
-
-
-
-
-
-
-
-
-Screen mockups to define workflow from user point-
-1.Images before object detection 
-
- 
-
-
- 
-
- 
-
-
-
-2.Images after object detection
