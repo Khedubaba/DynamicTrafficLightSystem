@@ -8,13 +8,18 @@ But this is not the only problem which results in such humungous traffic jams. T
 As a result the problems now vary from static signals to narrow roads to removing unwanted factors from the roads
 
 **Solution:**  In order to solve these problems we have come up with a system that results in
+
 **1.** Every road is constructed with a minimum and maximum amount of vehicles at one time. For eg. Suppose a road xyz is build with a maximum amount of vehicular movement at one time is 100 so if there is 300 vehicles at a time that means there is probability of traffic jams.
+
 **2.** Thus we are creating a map application which will give the shortest path to the users from source to destination but when our application comes to know that it has sent 60 vehicles from the same road and are currently at the same location that means it is 40 vehicles away from the threshold limit. Upon acting to this situation our map will re-route the next users as we have predicted that there might be a traffic situation keeping an offset of the vehicles who are not using the application. This will help us to bifurcate the traffic.
+
 **3.** Bifurcation of traffic is not the only solution as developers we will concentrate upon the offset that are the people who are not using the application.
+
 **4.** In order to avoid this offset i.e.if such a condition arrives that there is a traffic in a particular location we have come up with dynamic traffic light system.
 In this system the time taken to release a particular lane will depend upon the amount of traffic in that lane which the data will be received through the cctv cameras and will be processed with the help of machine learning.
 
 **Uniqueness about the idea:**
+
 **1.** Currently all the traffic systems in dia follow static time based working in which every signal is has been given with a certain amount of time to show a particular signal.This is a major cause of traffic as it doesn’t take any other factors into consideration eg.major one i.e.number of vehicles on a particular lane.This leads to inefiiciently control a traffic.
 Dynamic signal is a signal that will assess the conditons like number of vehicles, obstructions caused by ongoing contructions and will accordingly set a time for that particular lane.Thus dynamically changing waiting time which will surely positively impact on traffic conditions.
 
